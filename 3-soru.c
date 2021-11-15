@@ -14,5 +14,6 @@ main(){
 			printf("%d\n",a);
 		}
 	}
+	printf("program sonlandi.");
 	return 0;
 }

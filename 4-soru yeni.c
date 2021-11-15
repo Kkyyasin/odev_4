@@ -9,11 +9,11 @@ main(){
    	printf("1. sonuc=%f\n",toplam);
     for(i=2;i<=15;i++){
     	a=1;
-    	for(j=i;j>=1;j--){
+    	for(j=i;j>=2;j--){
     	a=a*j;
 		}
-		k=x;
-		for(j=2;j<=i;j++){	
+		k=1;
+		for(j=i;j>=2;j++){	
 			k=x*k;
 		}
 		z=k/a;

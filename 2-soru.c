@@ -1,9 +1,9 @@
 #include<stdio.h>
-#include<stdlib.h>
-
+#include<time.h>
 int main(){
 	int sayi,i,a;
 	printf("******************SAYI TAHMIN ETMECE***********************\n");
+	srand(time(NULL));
 	sayi=rand() %100+1;
 	for(i=1;i<=6;i++){
 
